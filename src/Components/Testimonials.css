@@ -1,0 +1,86 @@
+.testimonials {
+  padding: 4rem 2rem;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.testimonials-container {
+  
+  overflow: hidden;
+  width: 100%;
+  max-width: 1190px; /* Largeur maximale pour aligner trois cartes */
+  margin: 0 auto;
+  position: relative;
+}
+
+.testimonial-cards {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Transition fluide pour le défilement */
+}
+
+.testimonial-card {
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 300px; /* Taille fixe pour garantir l'alignement */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  flex-shrink: 0;
+  margin: 0 1rem; /* Espace entre les cartes */
+}
+
+.testimonial-card .avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.testimonial-card .rating {
+  color: #ffcc00;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.navigation {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav-btn {
+  background-color: #df5173;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+  background-color: #c34161;
+}
+
+.nav-btn:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+}
