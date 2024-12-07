@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="logo-container">
-        <img src="/src/images/logo.png" alt="FlashSkill Logo" className="logo-icon" />
+        <img src="/src/LandingPage/images/logo.png" alt="FlashSkill Logo" className="logo-icon" />
         <span className="logo-text">FlashSkill</span>
       </div>
       <div className="actions">

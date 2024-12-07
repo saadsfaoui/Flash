@@ -21,7 +21,7 @@ const Footer = () => {
       </div>
       <div className="footer-top">
         <div className="footer-logo">
-          <img src="/src/images/logo.png" alt="FlashSkill Logo" className="logo" />
+          <img src="/src/LandingPage/images/logo.png" alt="FlashSkill Logo" className="logo" />
           <span>FlashSkill</span>
         </div>
         <ul className="footer-links">
@@ -46,16 +46,16 @@ const Footer = () => {
         </p>
         <div className="social-icons">
           <a href="#twitter">
-            <img src="/src/images/X_logo.jpg" alt="Twitter" />
+            <img src="/src/LandingPage/images/X_logo.jpg" alt="Twitter" />
           </a>
           <a href="#facebook">
-            <img src="/src/images/fb.png" alt="Facebook" />
+            <img src="/src/LandingPage/images/fb.png" alt="Facebook" />
           </a>
           <a href="#linkedin">
-            <img src="/src/images/linkedin.jpg" alt="LinkedIn" />
+            <img src="/src/LandingPage/images/linkedin.jpg" alt="LinkedIn" />
           </a>
           <a href="#youtube">
-            <img src="/src/images/youtube.avif" alt="YouTube" />
+            <img src="/src/LandingPage/images/youtube.avif" alt="YouTube" />
           </a>
         </div>
       </div>
