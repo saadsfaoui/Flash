@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main>
+      <main className='main22'>
       <section className="categories">
   <h2>Categories</h2>
   <div className="category-grid">

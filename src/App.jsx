@@ -6,17 +6,22 @@ import LandingPage from "./LandingPage/LandingPage";
 import Home from "./Home/Home";
 import LoginPage from "./Login/LoginPage";
 import QuizPage from "./Quizz/QuizPage";
+import QuizDesignPage from "./create/QuizDesignPage"; // Import the Create page
+import Dashboard from "./dashboard/dashboard"; // Import the Dashboard page
 
 const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Define your routes here */}
+        {/* Existing routes */}
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/quiz" element={<QuizPage />} />
-        {/* Add more routes as needed */}
+
+        {/* New routes */}
+        <Route path="/create" element={<QuizDesignPage />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );
