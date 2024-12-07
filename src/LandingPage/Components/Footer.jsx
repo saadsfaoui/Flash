@@ -2,9 +2,16 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => {
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer className="footer">
-       <div className="contact-us">
+      <div className="contact-us">
         <h2>Contact Us</h2>
         <form className="contact-form">
           <div className="form-group">
@@ -25,12 +32,20 @@ const Footer = () => {
           <span>FlashSkill</span>
         </div>
         <ul className="footer-links">
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#about">About us</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#help-center">Help Center</a></li>
-          <li><a href="#faqs">FAQs</a></li>
-        </ul>
+  <li><a href="#pricing">Pricing</a></li>
+  <li><a href="#about">About us</a></li>
+  <li>
+    <button
+      className="link-button"
+      onClick={() => scrollToSection('features-section')}
+    >
+      Features
+    </button>
+  </li>
+  <li><a href="#help-center">Help Center</a></li>
+  <li><a href="#faqs">FAQs</a></li>
+</ul>
+
       </div>
       <hr />
       <div className="footer-bottom">

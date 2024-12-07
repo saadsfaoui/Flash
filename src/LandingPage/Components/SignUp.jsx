@@ -1,9 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './SignUp.css';
 
 const SignUp = () => {
   return (
-    <section className="signup-section">
+    <section id="signup-section" className="signup-section">
       <div className="signup-left">
         <h1>
           Join our community <br />
@@ -36,7 +37,7 @@ const SignUp = () => {
             </button>
           </form>
           <p className="login-link">
-            Already registered? <a href="#login">Log in</a>
+            Already registered? <Link to="/login">Log in</Link>
           </p>
         </div>
       </div>
